@@ -30,22 +30,10 @@ Grafiklerle pandeminin seyri görselleştirilmiştir.
 Kurulum
 Projeyi bilgisayarına klonladıktan sonra:
 
-bash
-Kopyala
-git clone https://github.com/edaydin1/covid-19.git
-cd covid-19
-pip install -r requirements.txt  # eğer requirements dosyan varsa
-jupyter notebook covid19.ipynb
-Eğer requirements.txt yoksa, en az şu kütüphaneler gereklidir:
 
-bash
-Kopyala
-pip install pandas numpy matplotlib seaborn
 Modelleme varsa ek olarak:
 
-bash
-Kopyala
-pip install scikit-learn
+
 Kullanılan Kütüphaneler
 Pandas → Veri işleme ve tablo yönetimi
 
